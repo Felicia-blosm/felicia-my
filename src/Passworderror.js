@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import { FaFrown, FaTimes } from 'react-icons/fa';
 
 

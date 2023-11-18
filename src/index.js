@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Passworderror from './Passworderror';
 import { Routes } from 'react-router-dom';
+import Fhorge from './Fhorge';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
 
       <Route path='/' element={<App/>}/>
       <Route path='/passworderror' element={<Passworderror/>}/>
+      <Route path='/fhorge' element={<Fhorge/>}/>
       
       </Routes>
     </BrowserRouter>
